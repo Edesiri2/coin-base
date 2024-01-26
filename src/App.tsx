@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import React from "react";
 
-import './App.css'
+import "./App.css";
+import { Layout } from "./layout/Layout";
 
 function App() {
-
   return (
     <>
+      <main>
+        <Layout />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
